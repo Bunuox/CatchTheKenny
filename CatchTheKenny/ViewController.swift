@@ -66,7 +66,7 @@ class ViewController: UIViewController {
                 highScoreLabel.text = "HighScore: \(self.highScore)"
                 UserDefaults.standard.set(self.highScore, forKey: "highscore")
             }
-            showAlert(title: "Finish!", message: "Game finished")
+            showAlert(title: "Finish!", message: "Game finished - github push deneme")
             self.timer.invalidate()
             self.timerForImageChange.invalidate()
             self.score = 0
